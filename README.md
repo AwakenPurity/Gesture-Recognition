@@ -36,6 +36,7 @@ transform = transforms.Compose([
  ```
  
  数据集大家可以自己整理，也可以直接使用我整理好的[数据集](https://wwvv.lanzout.com/iRmjI0yiyjyf)。
+ 
  ![image](https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/e2aad1e4-a87f-48c4-946a-980288a2bf62)
  
 ## 4. 项目执行
