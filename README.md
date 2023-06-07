@@ -33,6 +33,8 @@ transform = transforms.Compose(\[
  'scissor': 3}
  ```
  
+ 数据集大家可以自己整理，也可以直接使用我整理好的[数据集](https://wwvv.lanzout.com/iRmjI0yiyjyf)
+ 
 ## 4. 项目执行
 右击```myGUI.py```文件，运行即可 或 在终端执行命令```python myGUI.py```。
 
