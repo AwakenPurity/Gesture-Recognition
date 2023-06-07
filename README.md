@@ -4,7 +4,7 @@
 ## 1. 项目描述
 本应用主要是一个简单的基于卷积神经网络（CNN）的手势识别，主要就是对石头-剪刀-布画面进行实时检测，基本上是可以实现实时检测，准确率也是可以的。
 
-<img src="https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/b5f8be27-83a5-46be-bd29-0b91e67df8dd" alt="Image" width="300px" height="200px">
+<img src="https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/b5f8be27-83a5-46be-bd29-0b91e67df8dd" alt="Image" width="600px" height="500px">
 
 ## 2. 项目需求
 1. 考虑到除了石头-剪刀-布三种手势外，在不摆手势的时候，人脸便会出现在画面中。因此，本实验中添加了人脸的数据集，用于在不摆手势时，将检测结果检测为“人”。
