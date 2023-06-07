@@ -9,8 +9,7 @@
 2. 主要利用卷积神经网络进行检测（5层卷积），如果大家想要效果更好的话，其实是可以利用Yolov进行识别的。
 3. 头-剪刀-布的数据集图片均是 500 x 500 的大小，人脸数据集大小是 178 x 218，为了方便模型的训练，我们统一将图片大小resize成 500 x 500，如下：
 '''
-transform = transforms.Compose([
-    # transforms.ToPILImage(),
+transform = transforms.Compose(\[
     transforms.Resize((500, 500)),
     transforms.ToTensor(),         # 转换为张量
     transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])  # 归一化
