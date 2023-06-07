@@ -9,10 +9,10 @@
 2. 主要利用卷积神经网络进行检测（5层卷积），如果大家想要效果更好的话，其实是可以利用Yolov进行识别的。
 3. 头-剪刀-布的数据集图片均是 500 x 500 的大小，人脸数据集大小是 178 x 218，为了方便模型的训练，我们统一将图片大小resize成 500 x 500，如下：
 '''
-transform = transforms.Compose(\[
-    transforms.Resize((500, 500)),
-    transforms.ToTensor(),         # 转换为张量
-    transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])  # 归一化
+transform = transforms.Compose(\[  
+    transforms.Resize((500, 500)),  
+    transforms.ToTensor(),         # 转换为张量  
+    transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])  # 归一化  
 ])
 '''
 4. 为了方便实时检测，本项目设计了一个基于Opencv和PyQt5的GUI界面，支持实时画面来检测手势，实时画面直接将结果反馈在一个文本框中，并有一个退出按钮；按钮和文本里在画面右边，并将画面改成非镜像。
