@@ -4,6 +4,8 @@
 ## 1. 项目描述
 本应用主要是一个简单的基于卷积神经网络（CNN）的手势识别，主要就是对石头-剪刀-布画面进行实时检测，基本上是可以实现实时检测，准确率也是可以的。
 
+![680c39c0-dbb6-4386-bf01-b3fe62ca2cd9](https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/b5f8be27-83a5-46be-bd29-0b91e67df8dd)
+
 ## 2. 项目需求
 1. 考虑到除了石头-剪刀-布三种手势外，在不摆手势的时候，人脸便会出现在画面中。因此，本实验中添加了人脸的数据集，用于在不摆手势时，将检测结果检测为“人”。
 2. 主要利用卷积神经网络进行检测（5层卷积），如果大家想要效果更好的话，其实是可以利用Yolov进行识别的。
@@ -33,7 +35,7 @@ transform = transforms.Compose([
  'scissor': 3}
  ```
  
- 数据集大家可以自己整理，也可以直接使用我整理好的[数据集](https://wwvv.lanzout.com/iRmjI0yiyjyf)
+ 数据集大家可以自己整理，也可以直接使用我整理好的[数据集](https://wwvv.lanzout.com/iRmjI0yiyjyf)。
  
 ## 4. 项目执行
 右击```myGUI.py```文件，运行即可 或 在终端执行命令```python myGUI.py```。
