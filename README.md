@@ -20,7 +20,7 @@ transform = transforms.Compose([
 4. 为了方便实时检测，本项目设计了一个基于Opencv和PyQt5的GUI界面，支持实时画面来检测手势，实时画面直接将结果反馈在一个文本框中，并有一个退出按钮；按钮和文本里在画面右边，并将画面改成非镜像。
 
 ## 3. 数据集
-1. [瑞士Dalle Molle研究所数据据](https://github.com/alessandro-giusti/rock-paper-scissors)。该项目包含在各种场合收集到的剪刀石头布的几千张图片数据，D1 -> D7 包含不同人在不同日期获取的图片数据。本项目主要选用了D7数据集，D7数据集是于2018 年2月由米兰理工大学的硕士和博士生获得。
+1. [瑞士Dalle Molle研究所数据](https://github.com/alessandro-giusti/rock-paper-scissors)。该项目包含在各种场合收集到的剪刀石头布的几千张图片数据，D1 -> D7 包含不同人在不同日期获取的图片数据。本项目主要选用了D7数据集，D7数据集是于2018 年2月由米兰理工大学的硕士和博士生获得。
 ![image](https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/22bef801-7cb3-48b3-b03e-326a0501c345)
 
 2. [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)。CelebA是一个大规模的名人人脸数据集，包含了大约20万张名人的面部图像。数据集中的人脸图像具有不同的姿势、表情和背景。
