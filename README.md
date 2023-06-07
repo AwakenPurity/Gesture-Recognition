@@ -26,7 +26,7 @@ transform = transforms.Compose([
 2. [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)。CelebA是一个大规模的名人人脸数据集，包含了大约20万张名人的面部图像。数据集中的人脸图像具有不同的姿势、表情和背景。
 ![image](https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/9b339488-40bc-42dd-9ed3-c2f59f684294)
 
-3. 为了保持数据类别之间的平衡，我们将不同类别的数据分别只去了165-170张左右，防止在训练过程中因数据集不平衡给模型带来干扰。
+3. 为了保持数据类别之间的平衡，我们将不同类别的数据分别只取了165-170张左右，防止在训练过程中因数据集不平衡给模型带来干扰。
 4. 数据类别： 'paper'表示'布',  'people'表示'人脸',  'rock'表示'石头',  'scissor'表示'剪刀'。
 ```
 {'paper': 0, 
