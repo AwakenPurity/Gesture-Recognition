@@ -35,4 +35,5 @@ transform = transforms.Compose(\[
  
 ## 4. 项目执行
 右击```myGUI.py```文件，运行即可 或 在终端执行命令```python myGUI.py```。
-![image](https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/59a6fe4b-4a7c-46a9-9d92-9e006fa6ec4f)
+
+![image](https://github.com/BubbleByteX/Gesture-Recognition/assets/115935683/00eaf0d6-7112-40df-b9c4-fb9cc6694686)
